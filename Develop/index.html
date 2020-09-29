@@ -8,9 +8,12 @@
     </head>
 
     <body>
-        <div class="header">
-            <h1>Hori<span class="seo">seo</span>n</h1>
-            <div>
+        <!--navigation section-->
+        <header class="header"><!--REFACTOR: changed this from a div tag with a header class to a header tag.-->
+            <h1>
+                <a href="./index.html">Hori<span class="seo">seo</span>n</a><!--REFACTOR: added a link tag to tie the index page to their header name-->
+            </h1>
+            <nav><!--REFACTOR: changed this to a navigation tag to better describe/outline this section-->
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,8 +25,9 @@
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </header>
+
         <div class="hero"></div>
         <div class="content">
             <div class="search-engine-optimization">

@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav { /*REFACTOR: this css element was point towards a div in the html that was changed to a nav, updated css to match*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul { /*REFACTOR: this css element was point towards a div in the html that was changed to a nav, updated css to match*/
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li { /*REFACTOR: this css element was point towards a div in the html that was changed to a nav, updated css to match*/
     display: inline-block;
     margin-left: 25px;
 }

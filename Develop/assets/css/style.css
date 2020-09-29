@@ -3,53 +3,47 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background-color: #d9dcd6;
 }
-
+/*HEADER STYLE SECTION STARTS*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header nav { /*REFACTOR: this css element was point towards a div in the html that was changed to a nav, updated css to match*/
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul { /*REFACTOR: this css element was point towards a div in the html that was changed to a nav, updated css to match*/
+.header nav ul {
     list-style-type: none;
 }
-
-.header nav ul li { /*REFACTOR: this css element was point towards a div in the html that was changed to a nav, updated css to match*/
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
 p {
     font-size: 16px;
 }
+/*HEADER SECTION STYLE ENDS*/
 
+/*HERO SECTION STYLE STARTS*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +52,26 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*REFACTOR: consolicated seo, orm and smm classes into one class since they contained the same style applications*/
-.the-content{
-    margin: 5px 5px 5px 5px;
+/*HERO SECTION STYLE STARTS*/
+
+/*SERVICE/BENEFITS STYLE SECTION STARTS*/
+.services-benefits{
+    margin: 0px 15px 25px 15px;
 }
+/*SERVICE/BENEFITS STYLE SECTION ENDS*/
+
+/*SECTION ID STYLE STARTS*/
+#services-left{
+    overflow: hidden;
+}
+#benefits-right{
+    width: 20%;
+    float:right
+}
+/*SECTION ID STYLE ENDS*/
+
+/*CONTENT STYLE SECTION STARTS*/
 .content {
-    margin: 0 0 20px 20px;
     padding: 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -73,14 +81,10 @@ p {
     display: inline-block;
     overflow: auto;
 }
-
-/*REFACTOR: consolidated the seo, orm and smm img class since they contained the same style applications*/
 .content img{
     max-height: 250px;
     float: left;
 }
-
-/*REFACTOR: consolidated the seo, orm and smm img class since they contained the same style applications*/
 .content h2{
     margin-bottom: 20px;
     font-size: 36px;
@@ -93,44 +97,39 @@ p {
 .text-left {
     text-align: left;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+.text-right {
+    text-align: right;
 }
+/*CONTENT STYLE SECTION ENDS*/
 
-.benefit {
-    margin-bottom: 32px;
+/*BENEFITS STYLE SECTION STARTS*/
+.bcontent{
+    margin: 0;
+    clear:both;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
     color: #ffffff;
 }
-
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*BENEFITS STYLE SECTION ENDS*/
 
-
-
+/*FOOTER STYLE SECTION START*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 .footer h2 {
     font-size: 20px;
 }
-
+/*FOOTER STYLE SECTION ENDS*/

@@ -60,24 +60,19 @@ p {
 }
 /*SERVICE/BENEFITS STYLE SECTION ENDS*/
 
-/*SECTION ID STYLE STARTS*/
-#services-left{
-    overflow: hidden;
-}
-#benefits-right{
-    width: 20%;
-    float:right
-}
-/*SECTION ID STYLE ENDS*/
+/*SERVICES STYLE SECTION STARTS*/
 
-/*CONTENT STYLE SECTION STARTS*/
+.services{
+    width: 80%;
+    float:left;
+}
 .content {
     padding: 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    width: 75%;
+    width: 95%;
     display: inline-block;
     overflow: auto;
 }
@@ -100,9 +95,16 @@ p {
 .text-right {
     text-align: right;
 }
-/*CONTENT STYLE SECTION ENDS*/
+/*SERVICES STYLE SECTION ENDS*/
 
 /*BENEFITS STYLE SECTION STARTS*/
+
+.benefits{
+    overflow: hidden;
+    width: 20%;
+    height: 100%;
+}
+
 .bcontent{
     margin: 0;
     clear:both;
@@ -111,11 +113,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.benefit h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;

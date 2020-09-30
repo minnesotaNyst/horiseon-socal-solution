@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
 }
 body {
     background-color: #d9dcd6;
+    margin: 0;
 }
-/*HEADER STYLE SECTION STARTS*/
+/*----HEADER STYLE SECTION STARTS----*/
 .header {
-    padding: 20px;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -43,7 +43,7 @@ p {
 }
 /*HEADER SECTION STYLE ENDS*/
 
-/*HERO SECTION STYLE STARTS*/
+/*----HERO SECTION STYLE STARTS----*/
 .hero {
     height: 800px;
     width: 100%;
@@ -54,19 +54,18 @@ p {
 }
 /*HERO SECTION STYLE STARTS*/
 
-/*SERVICE/BENEFITS STYLE SECTION STARTS*/
+/*----SERVICE/BENEFITS STYLE SECTION STARTS----*/
 .services-benefits{
-    margin: 0px 15px 25px 15px;
+    margin: 30px 30px 30px 30px;
 }
 /*SERVICE/BENEFITS STYLE SECTION ENDS*/
 
-/*SERVICES STYLE SECTION STARTS*/
-
+/*----SERVICES STYLE SECTION STARTS----*/
 .services{
     width: 80%;
     float:left;
 }
-.content {
+.scontent {
     padding: 20px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,15 +75,15 @@ p {
     display: inline-block;
     overflow: auto;
 }
-.content img{
+.scontent img{
     max-height: 250px;
     float: left;
 }
-.content h2{
+.scontent h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-.content-bio {
+.scontent-bio {
     padding: 35px;
     float: left;
     width: 65%;
@@ -92,19 +91,14 @@ p {
 .text-left {
     text-align: left;
 }
-.text-right {
-    text-align: right;
-}
 /*SERVICES STYLE SECTION ENDS*/
 
-/*BENEFITS STYLE SECTION STARTS*/
-
+/*-----BENEFITS STYLE SECTION STARTS-----*/
 .benefits{
     overflow: hidden;
     width: 20%;
     height: 100%;
 }
-
 .bcontent{
     margin: 0;
     clear:both;
@@ -124,9 +118,9 @@ p {
 }
 /*BENEFITS STYLE SECTION ENDS*/
 
-/*FOOTER STYLE SECTION START*/
+/*-----FOOTER STYLE SECTION START-----*/
 .footer {
-    padding: 30px;
+    padding: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -135,3 +129,4 @@ p {
     font-size: 20px;
 }
 /*FOOTER STYLE SECTION ENDS*/
+

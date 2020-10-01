@@ -4,4 +4,4 @@
 
 # When it comes to the CSS, elements in the original sheet were duplicated. In an effort to refactor properly, elements were broken down and combined where applicable. The order of the style sheet was also re-orderd to align directly with the HTML. 
 
-![](assets/images/socialscreenshot.png)
+![](assets/images/socialhoriseon.png)

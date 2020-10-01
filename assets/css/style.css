@@ -13,6 +13,9 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+.header a{
+    margin-left: 15px
+}
 .header h1 {
     display: inline-block;
     font-size: 48px;

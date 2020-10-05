@@ -76,6 +76,7 @@ p {
     width: 95%;
     display: inline-block;
     overflow: auto;
+    margin-bottom: 10px;
 }
 .scontent img{
     max-height: 250px;
